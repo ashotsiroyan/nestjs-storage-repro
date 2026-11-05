@@ -20,7 +20,7 @@ StorageError: uploadToDisk(): no StorageModule in the application handling this 
 | `typescript`               | 7.0.2   |
 | `tsx`                      | 4.23.15 |
 
-Tested on Node v22.23.4 (Linux).
+Tested on Node v26.13.0 (macOS).
 
 ## Steps
 
