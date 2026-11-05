@@ -1,0 +1,24 @@
+{
+  "name": "nestjs-storage-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: @nestjs/storage uploadToDisk() fails under NodeAdapter",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "repro": "bash repro.sh src/main.ts",
+    "repro:workaround": "bash repro.sh src/workaround.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "12.3.3",
+    "@nestjs/core": "12.3.3",
+    "@nestjs/platform-node": "12.3.3",
+    "@nestjs/storage": "0.0.4",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2"
+  },
+  "devDependencies": {
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}
